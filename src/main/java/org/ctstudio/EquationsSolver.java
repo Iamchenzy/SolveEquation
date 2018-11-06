@@ -13,6 +13,7 @@ public class EquationsSolver {
   private boolean flag = true;  //方程组无解的标志位：true为有解，false无解
 
     //消元法
+    //测试git
   public EquationsSolver(double a1, double b1, double c1, double a2, double b2, double c2) {
     if( a1 * b2 == a2 * b1){
         flag = false;
